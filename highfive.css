@@ -1,0 +1,56 @@
+.LeftPanel {
+	position: absolute;
+	left: 0px;
+	width:  241px;
+}
+
+.MiddlePanel {
+	position:  absolute;
+	left: 241px;
+	width: 723px;
+	border-left-width: 1px;
+	border-right-width: 0px;
+	border-top-width: 0px;
+	border-bottom-width: 0px;
+	border-style: inset;
+	border-color: black;
+	padding-left:  10px;
+	float: left;
+}
+
+.RightPanel {
+	position: absolute;
+	left: 723px;
+	width: 241px;
+	font-weight: bold;
+}
+
+div#LinksOnTop {
+	text-align: right;
+	
+}
+
+body {
+	font-family:  Verdana,Arial,sans-serif;
+	font-size: 83%;
+}
+
+h1 {
+	font-family: helvetica, Arial, sans-serif;
+	font-size: 50;
+	
+	
+}
+
+li {
+	font-style:  italic;
+}
+
+p {
+	margin-top: 2px;
+}
+
+.termsofservice {
+	color:  blue;
+	font-weight:  bolder;
+}
