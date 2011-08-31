@@ -17,23 +17,28 @@
 	<div class="MiddlePanel">
 		<h3>Sign Up</h3>
 		
-			<?php
-				$firstname = $_POST['firstname'];
-				$lastname = $_POST['lastname'];
-				$email = $_POST['email'];
-				$password = $_POST['password'];
+		
+					<!--Submits all the information posted on this page and outputs it in welcome.php-->
+			<form action="welcome.php" method="post">
+			
+				<!--Asks user to enter first name-->
+				First Name: <input type="text" name="fname" /><br />
+			
+				<!--Asks user to enter last name-->
+				Last Name: <input type="text" name="lname" /><br />
 				
-				$to = 'michael.greenspan@sandisk.com';
-				$subject = 'login information';
+				<!--Asks user to enter email-->
+				SanDisk Email: <input type="text" name="email" /><br />
 				
-						
+				<!--Asks user to enter password-->
+				Password: <input type="password" name="password" /><br />
 				
-				
-				
-				
+				<!--Renders a submit button-->
+				<input type="Submit" /><br />
+			</form>
+
 			<font size=1>By clicking "Submit", you are agreeing to the <a href="highfive.com/termsofservice">Terms of Service</a>.</font>
 			<br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /> <br /> <br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /> <br /> <br /><br /><br />
 		</div>
 </body>
-
 </html>
